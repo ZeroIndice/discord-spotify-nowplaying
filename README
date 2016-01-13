@@ -1,0 +1,13 @@
+[Initialization]
+
+Requires discord.io and node-spotify-webhelper
+
+npm install discord.io
+npm install node-spotify-webhelper
+
+
+Edit the config.json to supply your username and password.
+
+
+[Running]
+node bot.js
