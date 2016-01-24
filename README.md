@@ -1,6 +1,6 @@
 # Initialization
 
-Requires `discord.io` and `node-spotify-webhelper`
+Requires `discord.io` and `node-spotify-webhelper` and Python >= v2.5.0 & < 3.0.0 for node-gyp.
 
 `npm install discord.io node-spotify-webhelper`
 
