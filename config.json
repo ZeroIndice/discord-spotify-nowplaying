@@ -2,5 +2,5 @@
 	"email":"your login email",
 	"password":"your password",
 	"username":"your username",
-	"token":"your token" //if you use a token, email, username and password are not necessary.  This is the most convienent and safest way to authenticate.
+	"token":"your token/*if you use a token, email, username and password are not necessary.  This is the most convienent and safest way to authenticate.*/" 
 }
