@@ -7,7 +7,8 @@ var bot = new DiscordClient({
     autorun: true,
     email: config.email,
     password: config.password,
-    username: config.username
+    username: config.username,
+    token: config.token
 });
 
 bot.on('ready', function () {
