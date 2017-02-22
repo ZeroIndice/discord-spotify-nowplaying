@@ -1,9 +1,9 @@
-var DiscordClient = require('discord.io');
+var Discord = require('discord.io');
 var nodeSpotifyWebHelper = require('node-spotify-webhelper');
 
 var spotify = new nodeSpotifyWebHelper.SpotifyWebHelper();
 var config = require("./config");
-var bot = new DiscordClient({
+var bot = new Discord.Client({
     autorun: true,
     email: config.email,
     password: config.password,
@@ -22,7 +22,7 @@ bot.on('ready', function () {
 });
 
 var curr = "";
-// get the name of the song which is currently playing 
+// get the name of the song which is currently playing
 setInterval(function () {
     spotify.getStatus(function (err, res) {
         if (err) {
